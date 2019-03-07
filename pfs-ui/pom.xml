@@ -16,6 +16,10 @@
     <name>${project.artifactId}</name>
     <description>Ui module for PersonalFinanceApp</description>
 
+    <properties>
+        <vaadin.version>12.0.6</vaadin.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
