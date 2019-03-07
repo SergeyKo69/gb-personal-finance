@@ -1,9 +1,9 @@
 spring:
   profile: dev
   datasource:
-    url: jdbc:postgresql://localhost:5432/accounts
-    username: user
-    password: password
+    url: jdbc:postgresql://ec2-54-217-208-105.eu-west-1.compute.amazonaws.com:5432/d78kp44e5carll
+    username: ceuyfhyubbpnsm
+    password: 1bab3b70637fd3f7e92e19591575324c9ab62622e7169c2108e0bf40b57e1b7e
     driver-class-name: org.postgresql.Driver
     validationQuery: "SELECT 1"
   jpa:
@@ -13,6 +13,8 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
+        ssl: true
+        sslfactory: org.postgresql.ssl.NonValidatingFactory
         show_sql: true
         max_fetch_depth: 3
         temp:

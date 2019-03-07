@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/statistics
-    username: user
-    password: password
+    url: jdbc:postgresql://ec2-54-217-207-242.eu-west-1.compute.amazonaws.com:5432/da9jjoa64rgsij
+    username: scrxcwgjmajlyx
+    password: 9325e506ca948d984aeb27b9f8cdb94f3ae9ec59017e27f05bab2afe58722412
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -12,6 +12,8 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
         show_sql: true
+        ssl: true
+        sslfactory: org.postgresql.ssl.NonValidatingFactory
         max_fetch_depth: 3
         temp:
           use_jdbc_metadata_defaults: false

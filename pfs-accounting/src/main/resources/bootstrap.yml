@@ -16,12 +16,12 @@ spring:
         service-id: config
         enabled: true
       fail-fast: true
-      uri: http://localhost:8888
+      uri: https://gb-personal-finance.herokuapp.com:8888
 
 security:
   oauth2:
     resource:
-      user-info-uri: http://localhost:8901/auth/user
+      user-info-uri: https://gb-personal-finance.herokuapp.com:8901/auth/user
 
 management:
   endpoints:
