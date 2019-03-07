@@ -1,32 +1,32 @@
 package ru.gb.dev.spring.pfs.notifying;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.web.client.TestRestTemplate;
-import org.springframework.core.ParameterizedTypeReference;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
-import org.springframework.security.test.context.support.WithMockUser;
-import org.springframework.test.context.junit4.SpringRunner;
-import ru.gb.dev.spring.pfs.notifying.dto.NotificationDTOCreate;
-import ru.gb.dev.spring.pfs.notifying.dto.NotificationDTODelete;
-import ru.gb.dev.spring.pfs.notifying.dto.NotificationDTOUpdate;
-import ru.gb.dev.spring.pfs.notifying.dto.util.ConvertUtil;
-import ru.gb.dev.spring.pfs.notifying.dto.view.NotificationDTOView;
-
-import java.time.LocalDateTime;
-import java.util.List;
+//import org.junit.Assert;
+//import org.junit.Before;
+//import org.junit.Test;
+//import org.junit.runner.RunWith;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.boot.test.context.SpringBootTest;
+//import org.springframework.boot.test.web.client.TestRestTemplate;
+//import org.springframework.core.ParameterizedTypeReference;
+//import org.springframework.http.HttpMethod;
+//import org.springframework.http.ResponseEntity;
+//import org.springframework.security.test.context.support.WithMockUser;
+//import org.springframework.test.context.junit4.SpringRunner;
+//import ru.gb.dev.spring.pfs.notifying.dto.NotificationDTOCreate;
+//import ru.gb.dev.spring.pfs.notifying.dto.NotificationDTODelete;
+//import ru.gb.dev.spring.pfs.notifying.dto.NotificationDTOUpdate;
+//import ru.gb.dev.spring.pfs.notifying.dto.util.ConvertUtil;
+//import ru.gb.dev.spring.pfs.notifying.dto.view.NotificationDTOView;
+//
+//import java.time.LocalDateTime;
+//import java.util.List;
 
 /**
  * @author S.Kogut on 2019-02-24
  */
 
-@RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
+//@RunWith(SpringRunner.class)
+//@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 public class PfsNotificationRestServiceTest {
 
 //    @Autowired
